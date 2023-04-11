@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: beige;
+}
+
+#caixapai{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50em;
+}
+
+#caixa1, #caixa2, #caixa3 {
+    display: flex;
+    background-color: grey;
+    height: 20vh;
+    width: 70vw;
+    margin: auto;
+    align-items: center;
+}
+
+.justify{
+    text-align: center;
+}
+
+#caixa1{
+    justify-content: flex-start;
+}
+
+#caixa2{
+    justify-content: flex-end;
+}
+
+#caixa3{
+    justify-content: center;
+}
+
+.elemento{
+    background-color: yellow;
+    width: 6em;
+    height: 2em;
+    border: solid black;
+}
+
+#caixa4, #caixa5, #caixa6 {
+    display: flex;
+    background-color: grey;
+    height: 20vh;
+    width: 70vw;
+    margin: auto;
+    align-items: center;
+}
+
+#caixa4{
+    justify-content: space-around;
+}
+
+#caixa5{
+    justify-content: space-evenly;
+}
+
+#caixa6{
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 3em;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 15px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+ul{
+
+}
+
+li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    padding-bottom: 15px;
+}

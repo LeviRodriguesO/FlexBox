@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>Flexbox</title>
+</head>
+<body>
+
+    <section>
+        <h1>Flexbox</h1>
+        <p>Flexbox são regras de CSS que configuram o alinhamento, posicionamento e distribuição de elementos através de regras de uma caixa pai, responsável por organizar o conteúdo dentro do espaço que ele possui. Facilitando a implementação de sites responsivos. Para ativar o flexbox em algum elemento usamos a propriedade Display.</p>
+        <p>Os filhos de um container flex, podem ser dispostos em qualquer direção. O que modificamos no container pai, que afeta os filhos:</p>
+        <ul>
+            <li>Direção</li>
+            <li>Justificação</li>
+            <li>Alinhamento</li>
+        </ul>
+    </section>
+
+    <h2>Justify-Content</h2>
+    <p>A propriedade Justfy-Content define como o navegador distribui o espaço entre e ao redor dos itens de conteúdos ao longo do eixo principal de um contêiner flexível e do eixo embutido de um contêiner de grade. A propriedade só terá efeito se a mesma tiver com a propriedade Display flex.</p>
+
+    <ul>
+        <li>Flex-End</li>
+        <li>Flex-Start</li>
+        <li>Center</li>
+        <li>Space:Around, Evenly e Between</li>
+        <li>Align-Items</li>
+    </ul>
+
+    <section id="caixapai">
+        <h2>Justify-Content: Flex-start; Flex-End; Center.</h2>
+
+        <div>
+            <p class="justify">Justify-Content: Flex-Start; Os itens são postos no começo do eixo principal.</p>
+            <section id="caixa1">
+                <div class="elemento">A</div>
+                <div class="elemento">B</div>
+                <div class="elemento">C</div>
+                <div class="elemento">D</div>
+                <div class="elemento">E</div>
+            </section>
+        </div>
+
+        <div>
+            <p class="justify">Justify-Content: Flex-End; Os itens são colocados no final do eixo principal.</p>
+            <section id="caixa2">
+                <div class="elemento">A</div>
+                <div class="elemento">B</div>
+                <div class="elemento">C</div>
+                <div class="elemento">D</div>
+                <div class="elemento">E</div>
+            </section>
+        </div>
+
+        <div>
+            <p class="justify">Justify-Content: Center; Os itens são alinhados no meio do eixo.</p>
+            <section id="caixa3">
+                <div class="elemento">A</div>
+                <div class="elemento">B</div>
+                <div class="elemento">C</div>
+                <div class="elemento">D</div>
+                <div class="elemento">E</div>
+            </section>
+        </div>
+    </section>
+
+    <section id="caixapai">
+        <h2>Justify-Content: Space-Around; Space-Evenly, Space-Between; Center;</h2>
+
+        <div>
+            <p class="justify">Justify-Content: Space-Around; O espaço vazio antes do primeiro e depois do último item é igual a metade do espaço entre cada par de itens adjacentes.</p>
+            <section id="caixa4">
+                <div class="elemento">A</div>
+                <div class="elemento">B</div>
+                <div class="elemento">C</div>
+                <div class="elemento">D</div>
+                <div class="elemento">E</div>
+            </section>
+        </div>
+
+        <div>
+            <p class="justify">Justify-Content: Space-Evenly; Os itens são colocados no eixo principal com espaçamentos equivalentes entre si.
+            </p>
+            <section id="caixa5">
+                <div class="elemento">A</div>
+                <div class="elemento">B</div>
+                <div class="elemento">C</div>
+                <div class="elemento">D</div>
+                <div class="elemento">E</div>
+            </section>
+        </div>
+
+        <div>
+            <p class="justify">Justify-Content: Space-Between; O primeiro item fica no começo do eixo e o último no fim, os restantes ficam alinhados entre si no meio.</p>
+            <section id="caixa6">
+                <div class="elemento">A</div>
+                <div class="elemento">B</div>
+                <div class="elemento">C</div>
+                <div class="elemento">D</div>
+                <div class="elemento">E</div>
+            </section>
+        </div>
+    </section>
+    
+</body>
+</html>
